@@ -1,0 +1,94 @@
+######################
+# TABLE DES MATIERES #
+######################
+	Projet
+	Prerequis
+	Installation
+	Troubleshoot
+	Fichiers
+	Credits
+
+##########
+# PROJET #
+##########
+
+Licence informatique 2ème année (2018/2019)
+@ Sorbonne Université Sciences (UFR922)
+Module 2i013 - Projet Ecosystèmes et Agents
+
+Binôme: Thibault ROCHE & Celia RESTES
+Professeur : Nicolas BREDECHE (& Paul ECOFFET)
+
+#############
+# PREREQUIS #
+#############
+
+Dépendances majeures:
+
+JAVA						Simulation Eco/Agents
+Python OR Python3			Graphe des données
+python-matplotlib 2.2.2		Graphe des données
+Environnement linux			Makefile et gestion des terminaux
+
+
+################
+# INSTALLATION #
+################
+
+Le téléchargement du programme se fait par github :
+ouvrir un terminal dans le dossier de son choix, pour y cloner le dossier du programme, puis entrer :
+	~$ git clone https://github.com/Exo2357/Projet-ROCHE_RESTES.git
+
+Ouvrir un terminal dans le dossier Programme-ROCHE_RESTES
+
+$ make runx		Lance le programme (une fenetre)
+$ make show		Lance le programme d'analyse des données (deux fenetres)
+
+################
+# TROUBLESHOOT #
+################
+
+1) Si make runx ne fonctionne pas, c'est que votre environnement Linux ne permet pas l'execution de "x-terminal-emulator" :
+Dans un terminal ouvert sur ~/Programme-ROCHE_RESTES entrez :
+	~$ make run 		Lance le programme dans le terminal actuel (une fenetre)
+
+puis, dans un terminal depuis Programme-ROCHE_RESTES/data entrez :
+	$ python plot_distrib.py 		Lance l'analyse des données statiques
+	$ python plot_data.py 			Lance l'analyse des données dynamiques
+
+2) si les graphes ne fonctionnent pas:
+Vérifier la version de matplotlib ainsi:
+Dans un terminal :
+	$ python
+	>>> import matplotlib
+	>>> matplotlib.__version__
+
+Voici entre autres les librairies appelées par matplotlib pour plot_data.py:
+matplotlib.pyplot
+matplotlib.gridspec
+matplotlib.animation
+matplotlib.style
+python-csv
+
+############
+# FICHIERS #
+############
+
+Le dossier Projet-ROCHE_RESTES contient:
+
+AIDE.TXT				Aide rapide
+Manuel-ROCHE_RESTES.pdf	Manuel détaillé de la simulation
+Scrum-ROCHE_RESTES.pdf	Ensemble des documents SCRUM du projet
+
+Programme-ROCHE_RESTES contient:
+	Makefile			Permet le lancement des programmes
+	src 				Contient les fichiers sources
+	data 				Contient les données statistiques
+	src_sprites 		Contient les sprites du programme
+
+
+###########
+# CREDITS #
+###########
+
+Voir manuel détaillé section Crédits

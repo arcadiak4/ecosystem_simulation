@@ -1,0 +1,71 @@
+
+#####################
+# biomes_data.csv	#
+#####################
+
+Contient une seule ligne:
+A;B;C;D
+
+A: nombre de cellules biome océan
+B: nombre de cellules biome tempéré
+C: nombre de cellules biome desert
+D: nombre de cellules biome montagne
+
+#############
+# data.csv	#
+#############
+
+Chaque appel à myWorld.extractData(...) append une ligne à ce fichier.
+Chaque ligne comprend les nombres de :
+
+nbTemperateTrees;nbTemperateBushes;nbDesertTrees;nbDesertBushes;nbMountainTrees;nbMountainBushes;
+nbBabyFF;nbBabyIW;nbTemperateFF;nbTemperateIW;nbDesertFF;nbDesertIW;nbMountainFF;nbMountainIW
+
+Soit par champs de 0 à 18 tels que:
+
+0:	iteration
+1:	nbTemperateTrees
+2:	nbTemperateBushes
+3:	nbDesertTrees
+4:	nbDesertBushes
+5:	nbMountainTrees
+6:	nbMountainBushes
+7:	nbBabyFF
+8:	nbBabyIW
+9:	nbTemperateFF
+10:	nbTemperateIW
+11:	nbDesertFF
+12:	nbDesertIW
+13:	nbMountainFF
+14:	nbMountainIW
+15: nbAllTrees
+16: nbAllBushes
+17: nbAllIF
+18: nbAllIW
+
+###################
+# plot_distrib.py #
+###################
+
+Requiert matplotlib et csv
+
+Ce programme python standalone affiche la distribution des biomes sous forme de pie chart.
+Il doit être lancé depuis ~/Projet-ROCHE_RESTES/Programme-ROCHE_RESTES avec la commande:
+	make show	
+Le cas échéant peut être lancé depuis ~/Projet-ROCHE_RESTES/Programme-ROCHE_RESTES/data avec :
+	python plot_distrib.py
+La figure reste ouverte et monopolise le shell jusqu'à sa fermeture [x].
+
+
+################
+# plot_data.py #
+################
+
+Requiert matplotlib 2.2.2 et csv
+
+Ce programme python affiche les données de la faune et de la flore.
+Il doit être lancé depuis le ~/Projet-ROCHE_RESTES/Programme-ROCHE_RESTES avec la commande:
+	make show
+Le cas échéant peut être lancé depuis ~/Projet-ROCHE_RESTES/Programme-ROCHE_RESTES/data avec :
+	python plot_data.py
+La figure reste ouverte et monopolise le shell jusqu'à sa fermeture [x].

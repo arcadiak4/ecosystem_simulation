@@ -1,0 +1,34 @@
+#################################
+#  Crédits de sprites utilisés  #
+#################################
+
+## Firefox et Iceweasel
+Mods de Stardew Valley
+https://community.playstarbound.com/threads/tokiris-pet-replacements-fox-wolf-red-panda-update-red-panda-finished.110263/
+
+## Emote coeur
+## Buissons
+## Arbres du biome tempéré
+Stardew Valley https://www.spriters-resource.com/pc_computer/stardewvalley/
+
+## Sapins du biome montagne
+"[LPC] Conifer Trees Pack" by bluecarrot16, b_o, Lanea Zimmerman (Sharm), Johann Charlot, Yar, Jetrel, Zabin, Hyptosis, Surt, and KnoblePersona
+
+## Cactus du biome désert
+## Sable
+## Herbe
+"[LPC] Beach/Desert" by bluecarrot16, Guillaume Lecollinet, Johann Charlot, cynicmusic, Surt, vk, Yar, Buch, Jetrel, Zachariah Husiar aka (Zabin), Hyptosis, William Thompson, Frode Lindeijer aka (Modanung), Leonard Pabin, and Lanea Zimmerman aka (Sharm).
+
+## Neige 
+Downdate
+https://opengameart.org/content/snow-texture
+
+## Eau
+Jattenalle
+https://opengameart.org/content/texture-water
+
+## Rochers
+RayaneFLX
+https://opengameart.org/content/rpg-terrains
+
+
