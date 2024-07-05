@@ -1,4 +1,4 @@
-# Projet de simulation d’écosystème
+# Simulation d’écosystème
 
 ## Composantes principales du projet
 - Un écosystème composé de quatre biomes aux propriétés faune/flore différentes.
